@@ -1,3 +1,7 @@
+#Justin Sanny 
+#CMSI 282
+#Priority Queue with smallest number having priority.
+#Homework 1
 class PriorityQueue:
 	import math
 	def __init__(self):
@@ -10,11 +14,6 @@ class PriorityQueue:
 		return self.listQ[0]
 
 	def add(self, item):
-		n = 0
-		while n < self.length:
-			if self.listQ[n] == item:
-				raise ValueError("Nope, that's a duplicate.") 
-			n += 1
 		self.listQ.append(item)
 		self.length += 1
 		templength = self.length
