@@ -2,8 +2,9 @@
 #CMSI 282
 #Priority Queue with smallest number having priority.
 #Homework 1
+import math
 class PriorityQueue:
-	import math
+	
 	def __init__(self):
 		self.length = 0
 		self.listQ = []
